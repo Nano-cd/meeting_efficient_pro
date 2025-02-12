@@ -26,6 +26,12 @@
 | 行动项不明确      | 使用SMART原则记录行动项                                                  | post_action |
 | 缺乏效果追踪      | 建立会议效果评估指标体系                                                 | post_tracking |
 
+
+- ![RACI矩阵](RACI1.png)
+- ![RACI矩阵2](RACI2.png)
+- ![SMART](SMART.png)
+  
+
 ## 二、效率评估模型实现
         """
         计算会议效率得分
