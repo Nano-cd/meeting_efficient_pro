@@ -27,9 +27,7 @@
 | 缺乏效果追踪      | 建立会议效果评估指标体系                                                 | post_tracking |
 
 
-- ![RACI矩阵](RACI1.png)
-- ![RACI矩阵2](RACI2.png)
-- ![SMART](SMART.png)
+
   
 
 ## 二、效率评估模型实现
@@ -61,3 +59,7 @@ print(f"会议效率得分：{evaluator.calculate_efficiency(90, 8, 3):.1f}分")
 3. 开发智能会议助手：
 
 该方案通过量化评估和流程规范化，预计可提升会议效率40%以上（基于历史数据模拟测算）。
+
+- ![RACI矩阵](RACI1.png)
+- ![RACI矩阵2](RACI2.png)
+- ![SMART](SMART.png)
