@@ -33,7 +33,7 @@
         :param participants: 参会人数
         :param action_items: 有效行动项数量
         """
-calculate_efficiency(duration, participants, action_items)
+calculate_efficiency(duration, participants, action_items)  
 使用示例
 evaluator = MeetingEvaluator()
 print(f"会议效率得分：{evaluator.calculate_efficiency(90, 8, 3):.1f}分") # 输出：会议效率得分：68.3分
