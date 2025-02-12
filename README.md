@@ -27,6 +27,13 @@
 | 缺乏效果追踪      | 建立会议效果评估指标体系                                                 | post_tracking |
 
 ## 二、效率评估模型实现
+        """
+        计算会议效率得分
+        :param duration: 实际会议时长(分钟)
+        :param participants: 参会人数
+        :param action_items: 有效行动项数量
+        """
+calculate_efficiency(duration, participants, action_items)
 使用示例
 evaluator = MeetingEvaluator()
 print(f"会议效率得分：{evaluator.calculate_efficiency(90, 8, 3):.1f}分") # 输出：会议效率得分：68.3分
